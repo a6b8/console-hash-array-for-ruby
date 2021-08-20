@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/Headline.svg" height="55px" name="Console Hash Array" alt="# Headline">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/Headline.svg" height="55px" name="Console Hash Array" alt="# Console Hash Array">
 </a>
 
 Helper to print progress bar for hash array with long processes.
@@ -45,6 +45,7 @@ end
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
+
 1. [Quickstart](#quickstart)<br>
 2. [Parameters](#parameters)<br>
 3. [Options](#options)<br>
