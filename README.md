@@ -165,6 +165,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/c
 - No input validation
 <br>
 <br>
+
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/license.svg" height="55px" name="license" alt="License">
 </a>
