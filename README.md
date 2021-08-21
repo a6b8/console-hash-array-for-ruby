@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/Headline.svg" height="55px" name="Console Hash Array" alt="# Console Hash Array">
 </a>
 
-Helper to print progress bar for hash array with long processes.
+Console print progress bar for hash arrays.
 <br>
 <br>
 <br>
