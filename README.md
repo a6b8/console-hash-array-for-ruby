@@ -80,17 +80,17 @@ end
 
 Add this line to your application's Gemfile:
 
-```ruby
+```bash
 gem console_hash_array
 ```
 
 And then execute:
-```ruby
+```bash
 bundle install console_hash_array
 ```
 
 Or install it yourself as:
-```ruby
+```bash
 gem install console_hash_array
 ```
 
