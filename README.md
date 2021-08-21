@@ -39,6 +39,8 @@ end
 # [13]  Gerda Boffin        ..............................
 
 ```
+<br>
+<br>
 
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
