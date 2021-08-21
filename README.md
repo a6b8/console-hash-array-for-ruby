@@ -7,19 +7,22 @@ Console print progress bar for hash arrays.
 <br>
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/examples.svg" height="55px" name="example" alt="Example">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/examples.svg" height="55px" name="examples" alt="Examples">
 </a>
 <br>
+
+
+### Example 1
+Default output without options
 ```ruby
 require 'console_hash_array'
 
 groups = ConsoleHashArray.example()
 groups.keys.each.with_index do | key, rindex |
-    p = ConsoleHashArray.console( nil, groups, rindex, nil, key, :left, {} )
+    ConsoleHashArray.console( groups, rindex, nil, key, :left )
     groups[ key ].each.with_index do | item, cindex |
-        p = ConsoleHashArray.console( p, groups, rindex, cindex, key, :right, {} )
+        ConsoleHashArray.console( groups, rindex, cindex, key, :right )
     end
-    puts
 end
 
 # => 
@@ -37,6 +40,46 @@ end
 # [11]  Tobold Hornblower   ..............
 # [12]  Thrór               .....
 # [13]  Gerda Boffin        ..............................
+
+```
+<br>
+
+### Example 2
+Default output without options
+
+```ruby
+require 'console_hash_array'
+
+groups = ConsoleHashArray.example()
+groups.keys.each.with_index do | key, rindex |
+    ConsoleHashArray.console( groups, rindex, nil, key, :left )
+    groups[ key ].each.with_index do | item, cindex |
+        ConsoleHashArray.console( groups, rindex, cindex, key, :right,
+            { 
+                right__boxes_total: 10,
+                style__spaces: '.',
+                style__steps: '#',
+                print__left: "{{rindex}}.{{key}}{{left__spaces}}.."
+            } 
+        )
+    end
+end
+
+# => 
+# 0. Nurwë                 ####################
+# 1. Legolas               ##
+# 2. Primrose Boffin       #####
+# 3. Aranuir               ###########
+# 4. Ruby Gardner          ########
+# 5. Harding               ##########
+# 6. Írimon                ####################
+# 7. Torhir Ifant          ####################
+# 8. Anairë                ####
+# 9. Golasgil              ####
+# 10. Mîm                  
+# 11. Tobold Hornblower    #####
+# 12. Thrór                ####################
+# 13. Gerda Boffin         #####
 
 ```
 <br>
@@ -67,11 +110,10 @@ require 'console_hash_array'
 
 groups = ConsoleHashArray.example()
 groups.keys.each.with_index do | key, rindex |
-    p = ConsoleHashArray.console( nil, groups, rindex, nil, key, :left, {} )
+    ConsoleHashArray.console( groups, rindex, nil, key, :left )
     groups[ key ].each.with_index do | item, cindex |
-        p = ConsoleHashArray.console( p, groups, rindex, cindex, key, :right, {} )
+        ConsoleHashArray.console( groups, rindex, cindex, key, :right )
     end
-    puts
 end
 ```
 <br>
@@ -120,14 +162,13 @@ Hash
 ```ruby
 require 'console_hash_array'
 
-p = ConsoleHashArray.console( nil, groups, rindex, cindex, key, :left, {} )
+ConsoleHashArray.console( groups, rindex, cindex, key, :left )
 ```
 
 
 **Input**
 | | **Type** | **Required** | **Description** |
 |------:|:------|:------|:------|
-| **p** | ```Hash``` | :left = nil, :right = Yes  | Parameters for console |
 | **groups** | ```Hash of Arrays``` | Yes | Full Groups Hash |
 | **rindex** | ```Int``` | Yes | Set row index for calculation and output options. |
 | **cindex** | ```Int``` | :left = nil, :right = Yes | Set column index for calculation and output options. |

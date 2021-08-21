@@ -20,7 +20,7 @@ tests = [
     right__boxes_total: 50,
   }
 ]
-
+git add 
 tests.each do | test |
   groups = ConsoleHashArray.example()
 

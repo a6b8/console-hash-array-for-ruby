@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hello@13plus4.com"]
 
   spec.summary       = "Console print progress bar for hash arrays."
-  spec.description   = "Console print progress bar for hash arrays for long processes."
+  spec.description   = "Console print progress bar for hash arrays"
   spec.homepage      = "https://github.com/a6b8/console-hash-array-for-ruby"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"

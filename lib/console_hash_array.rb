@@ -5,9 +5,34 @@ require_relative "console_hash_array/version"
 module ConsoleHashArray
   class Error < StandardError; end
 
-  def self.console( p, arr, rindex, cindex, key, mode, options={} )
+  @TEMPLATE = {
+    print: {
+      left: '[{{rindex}}]  {{key}} {{left__spaces}}  '
+    },
+    style: {
+      spaces: ' ',
+      steps: '.'
+    },
+    left: {
+      max: nil,
+      spaces: nil
+    },
+    right: {
+      boxes_total: 30,
+      box_current: nil,
+      box: nil,
+      boxes: nil,
+      length_max: nil,
+      mark: nil
+    }
+  }
+
+  @p = {}
+
+  def self.console( arr, rindex, cindex, key, mode, options={} )
     def self.options_insert( p, arr, rindex, cindex, key, mode, options )
-      if !options.keys.include?( :print__left )
+
+      if !options .keys.include?( :print__left )
         options[:print__left] = p[:print][:left] 
       end
 
@@ -79,31 +104,10 @@ module ConsoleHashArray
       return [ p, errors ]
     end
 
-    
+    p = {}
     case mode
       when :left
-        p = {
-          print: {
-            left: '[{{rindex}}]  {{key}} {{left__spaces}}  '
-          },
-          style: {
-            spaces: ' ',
-            steps: '.'
-          },
-          left: {
-            max: nil,
-            spaces: nil
-          },
-          right: {
-            boxes_total: 30,
-            box_current: nil,
-            box: nil,
-            boxes: nil,
-            length_max: nil,
-            mark: nil
-          }
-        }
-
+        p = Marshal.load( Marshal.dump( @TEMPLATE ) )
         errors = []
         messages = []
         p, errors = self.options_insert( p, arr, rindex, cindex, key, mode, options )
@@ -130,13 +134,18 @@ module ConsoleHashArray
         end
           
         print( p[:print][:left] )
+
+        if arr[ key ].length == 0
+          puts
+        end
       when :right
+        p = @p 
         if !p[:right][:boxes].find_index( cindex ).nil? and p[:right][:boxes].find_index( cindex ) != p[:right][:box_current]
           box_new = p[:right][:boxes].find_index( cindex )
           
           ( box_new - p[:right][:box_current] ).times.each do | a | 
             if p[:right][:mark] < p[:right][:boxes_total]
-                print( p[:style][:steps] )
+              print( p[:style][:steps] )
             end
             p[:right][:mark] = p[:right][:mark] + 1
           end
@@ -144,15 +153,19 @@ module ConsoleHashArray
           p[:right][:box_current] = box_new        
         end
 
-        if cindex == arr[ key ].length-1 and p[:right][:mark] != arr[ key ].length-1
-          c = p[:right][:boxes_total] - p[:right][:mark]
-          c > ( arr[ key ].length-1 ) ? c = arr[ key ].length-1 : ''
-          c.times.each do | a |
+        if cindex == arr[ key ].length-1
+          if p[:right][:mark] != arr[ key ].length-1
+            c = p[:right][:boxes_total] - p[:right][:mark]
+            c > ( arr[ key ].length-1 ) ? c = arr[ key ].length-1 : ''
+            c.times.each do | a |
               print( p[:style][:steps] )
+            end
           end
+          puts
         end
     else
     end
+    @p = p
   
     return p
   end
