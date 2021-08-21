@@ -45,23 +45,24 @@ end
 <br>
 
 ### Example 2
-Default output without options
+Custom output with options
 
 ```ruby
 require 'console_hash_array'
 
 groups = ConsoleHashArray.example()
+
+options = { 
+    right__boxes_total: 10,
+    style__spaces: '.',
+    style__steps: '#',
+    print__left: "{{rindex}}.{{key}}{{left__spaces}}.."
+} 
+
 groups.keys.each.with_index do | key, rindex |
     ConsoleHashArray.console( groups, rindex, nil, key, :left )
     groups[ key ].each.with_index do | item, cindex |
-        ConsoleHashArray.console( groups, rindex, cindex, key, :right,
-            { 
-                right__boxes_total: 10,
-                style__spaces: '.',
-                style__steps: '#',
-                print__left: "{{rindex}}.{{key}}{{left__spaces}}.."
-            } 
-        )
+        ConsoleHashArray.console( groups, rindex, cindex, key, :right, options )
     end
 end
 
