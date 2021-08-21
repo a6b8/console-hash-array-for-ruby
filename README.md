@@ -7,9 +7,8 @@ Helper to print progress bar for hash array with long processes.
 <br>
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/examples.svg" height="55px" name="examples" alt="Examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/examples.svg" height="55px" name="example" alt="Example">
 </a>
-<br>
 <br>
 ```ruby
 require 'console_hash_array'
