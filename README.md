@@ -99,7 +99,6 @@ end
 9. [Support my Work](#support-my-work)<br>
 
 <br>
-<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/quickstart.svg" height="38px" name="quickstart" alt="Quickstart">
 </a>
@@ -115,7 +114,7 @@ groups.keys.each.with_index do | key, rindex |
     end
 end
 ```
-<br>
+
 <br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/setup.svg" height="38px" name="setup" alt="Setup">
@@ -141,7 +140,7 @@ On Rubygems:
 - Gem: https://rubygems.org/gems/console_hash_array
 - Profile: https://rubygems.org/profiles/a6b8
 
-<br>
+
 <br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/methods.svg" height="38px" name="methods" alt="Methods">
@@ -192,37 +191,34 @@ Hash (p)
 | 4 | Print Left | `:print__left` | `"[{{rindex}}]  {{key}} {{left__spaces}}  "`| String | Set Structure for `:left` |
 
 <br>
-<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/contributing.svg" height="38px" name="contributing" alt="Contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/console-hash-array-for-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/console-hash-array-for-ruby/blob/master/CODE_OF_CONDUCT.md).
-<br>
-<br>
 
+<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/limitations.svg" height="38px" name="limitations" alt="Limitations">
 </a>
+
 - Build for development usage
 - No input validation
-<br>
-<br>
 
+<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/license.svg" height="38px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-<br>
-<br>
 
+<br>
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" name="code-of-conduct" alt="Code of Conduct">
 </a>
     
 Everyone interacting in the console-hash-array-for-ruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/console-hash-array-for-ruby/blob/master/CODE_OF_CONDUCT.md).
-<br>
+
 <br>
 
 <a href="#table-of-contents">
