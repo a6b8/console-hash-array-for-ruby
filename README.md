@@ -89,13 +89,14 @@ end
 
 1. [Examples](#examples)<br>
 1. [Quickstart](#quickstart)<br>
-1. [Parameters](#parameters)<br>
-1. [Options](#options)<br>
-1. [Contributing](#contributing)<br>
-1. [Limitations](#limitations)<br>
-1. [License](#license)<br>
-1. [Code of Conduct](#code-of-conduct)<br>
-1. [Support my Work](#support-my-work)<br>
+2. [Setup](#setup)
+3. [Methods](#methods)<br>
+4. [Options](#options)<br>
+5. [Contributing](#contributing)<br>
+6. [Limitations](#limitations)<br>
+7. [License](#license)<br>
+8. [Code of Conduct](#code-of-conduct)<br>
+9. [Support my Work](#support-my-work)<br>
 
 <br>
 <br>
@@ -182,6 +183,7 @@ Hash (p)
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/options.svg" height="38px" name="options" alt="Options">
 </a>
+
 | Nr | Name | Key | Default | Type | Description |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | 1 | Boxes Total | `:right__boxes_total` | `30`| Int | Set length of progres bar |
