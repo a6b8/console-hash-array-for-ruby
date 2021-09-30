@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/Headline.svg" height="45px" name="Console Hash Array" alt="# Console Hash Array">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/Headline.svg" height="45px" name="headline" alt="# Console Hash Array">
 </a>
 
 Console print progress bar for hash arrays.
@@ -82,7 +82,7 @@ end
 ```
 <br>
 
-<a href="#table-of-contents">
+<a href="#headline">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
