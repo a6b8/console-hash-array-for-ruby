@@ -1,4 +1,4 @@
-require '../lib/console_hash_array'
+require './lib/console_hash_array'
 
 
 tests = [
@@ -32,6 +32,6 @@ tests.each do | test |
   end
 
   puts
-  puts
 end
 
+puts "Test passed."
