@@ -1,7 +1,7 @@
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/console-hash-array-for-ruby/readme/headlines/headline.svg" height="45px" name="# Console Hash Array" alt="Console Hash Array">
 </a>
-
+T
 Console print progress bar for hash arrays.
 <br>
 <br>
