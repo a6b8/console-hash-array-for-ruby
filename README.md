@@ -117,7 +117,7 @@ end
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/setup.svg" height="38px" name="setup" alt="Setup">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="38px" name="setup" alt="Setup">
 </a>
 
 Add this line to your application's Gemfile:
