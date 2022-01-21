@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/console-hash-array-for-ruby.svg" height="45px" name="# Console Hash Array for Ruby" alt="Console Hash Array for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/console-hash-array.svg" height="45px" name="# Console Hash Array for Ruby" alt="Console Hash Array for Ruby">
 </a>
 
 Console print progress bar for hash arrays.
