@@ -7,7 +7,7 @@ Console print progress bar for hash arrays.
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="38px" name="examples" alt="Examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="45px" name="examples" alt="Examples">
 </a>
 <br>
 
@@ -83,7 +83,7 @@ end
 <br>
 
 <a href="#headline">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="45px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
 
@@ -100,7 +100,7 @@ end
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="38px" name="quickstart" alt="Quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="45px" name="quickstart" alt="Quickstart">
 </a>
 
 ```ruby
@@ -117,7 +117,7 @@ end
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="38px" name="setup" alt="Setup">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="45px" name="setup" alt="Setup">
 </a>
 
 Add this line to your application's Gemfile:
@@ -143,7 +143,7 @@ On Rubygems:
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/methods.svg" height="38px" name="methods" alt="Methods">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/methods.svg" height="45px" name="methods" alt="Methods">
 </a>
 
 ### .example()
@@ -180,7 +180,7 @@ Hash (p)
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="38px" name="options" alt="Options">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="45px" name="options" alt="Options">
 </a>
 
 | Nr | Name | Key | Default | Type | Description |
@@ -192,14 +192,14 @@ Hash (p)
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="38px" name="contributing" alt="Contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="45px" name="contributing" alt="Contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/console-hash-array-for-ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/console-hash-array-for-ruby/blob/master/CODE_OF_CONDUCT.md).
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="38px" name="limitations" alt="Limitations">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="45px" name="limitations" alt="Limitations">
 </a>
 
 - Build for development usage
@@ -207,14 +207,14 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/c
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="38px" name="license" alt="License">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="45px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 <br>
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="38px" name="code-of-conduct" alt="Code of Conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="45px" name="code-of-conduct" alt="Code of Conduct">
 </a>
     
 Everyone interacting in the console-hash-array-for-ruby project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/console-hash-array-for-ruby/blob/master/CODE_OF_CONDUCT.md).
@@ -222,7 +222,7 @@ Everyone interacting in the console-hash-array-for-ruby project's codebases, iss
 <br>
 
 <a href="#table-of-contents">
-<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/support-my-work.svg" height="38px" name="support-my-work" alt="Support my Work">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="45px" name="star-us" alt="Star Us">
 </a>
-    
-Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
+
+Please ⭐️ star this Project, every ⭐️ star makes us very happy!
